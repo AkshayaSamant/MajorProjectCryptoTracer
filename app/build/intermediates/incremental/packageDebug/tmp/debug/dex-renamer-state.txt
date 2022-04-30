@@ -1,0 +1,7 @@
+#Tue Apr 26 23:21:57 IST 2022
+base.1=C\:\\Users\\Samant\\major project\\CoinBit-master\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes2.dex
+path.1=classes2.dex
+base.0=C\:\\Users\\Samant\\major project\\CoinBit-master\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

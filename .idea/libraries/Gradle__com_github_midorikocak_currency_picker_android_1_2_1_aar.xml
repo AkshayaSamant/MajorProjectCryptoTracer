@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.midorikocak:currency-picker-android:1.2.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a4bf74f3c150ab1457b71faf4913be90/jetified-currency-picker-android-1.2.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a4bf74f3c150ab1457b71faf4913be90/jetified-currency-picker-android-1.2.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a4bf74f3c150ab1457b71faf4913be90/jetified-currency-picker-android-1.2.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4d81c4bd110365369d438bae22e905eb/jetified-currency-picker-android-1.2.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4d81c4bd110365369d438bae22e905eb/jetified-currency-picker-android-1.2.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4d81c4bd110365369d438bae22e905eb/jetified-currency-picker-android-1.2.1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

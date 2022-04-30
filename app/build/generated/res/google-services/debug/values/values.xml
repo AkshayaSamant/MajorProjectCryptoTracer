@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">577274068401-7cm0ud0b8v96lsq35icvmoncsehvbupm.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://coinbit-4d26f.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">577274068401</string>
+    <string name="google_api_key" translatable="false">AIzaSyD-mv2zb2UYQ1LbJWzKEd0WZrU1CCfSIEM</string>
+    <string name="google_app_id" translatable="false">1:577274068401:android:f806e4e77b98053f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD-mv2zb2UYQ1LbJWzKEd0WZrU1CCfSIEM</string>
+    <string name="google_storage_bucket" translatable="false">coinbit-4d26f.appspot.com</string>
+    <string name="project_id" translatable="false">coinbit-4d26f</string>
+</resources>

@@ -1,0 +1,121 @@
+com/binarybricks/coinbit/data/database/dao/WatchedCoinDao_Impl.java
+ com.binarybricks.coinbit.data.database.dao.WatchedCoinDao_Impl
+ com.binarybricks.coinbit.data.database.dao.WatchedCoinDao_Impl$1
+ com.binarybricks.coinbit.data.database.dao.WatchedCoinDao_Impl$10
+ com.binarybricks.coinbit.data.database.dao.WatchedCoinDao_Impl$11
+ com.binarybricks.coinbit.data.database.dao.WatchedCoinDao_Impl$2
+ com.binarybricks.coinbit.data.database.dao.WatchedCoinDao_Impl$3
+ com.binarybricks.coinbit.data.database.dao.WatchedCoinDao_Impl$4
+ com.binarybricks.coinbit.data.database.dao.WatchedCoinDao_Impl$5
+ com.binarybricks.coinbit.data.database.dao.WatchedCoinDao_Impl$6
+ com.binarybricks.coinbit.data.database.dao.WatchedCoinDao_Impl$7
+ com.binarybricks.coinbit.data.database.dao.WatchedCoinDao_Impl$8
+ com.binarybricks.coinbit.data.database.dao.WatchedCoinDao_Impl$9
+com/binarybricks/coinbit/epoxymodels/CoinTransactionHistoryItemViewModelBuilder.java
+ com.binarybricks.coinbit.epoxymodels.CoinTransactionHistoryItemViewModelBuilder
+com/binarybricks/coinbit/data/database/dao/CoinTransactionDao_Impl.java
+ com.binarybricks.coinbit.data.database.dao.CoinTransactionDao_Impl
+ com.binarybricks.coinbit.data.database.dao.CoinTransactionDao_Impl$1
+ com.binarybricks.coinbit.data.database.dao.CoinTransactionDao_Impl$2
+ com.binarybricks.coinbit.data.database.dao.CoinTransactionDao_Impl$3
+ com.binarybricks.coinbit.data.database.dao.CoinTransactionDao_Impl$4
+com/binarybricks/coinbit/epoxymodels/AddCoinItemViewModel_.java
+ com.binarybricks.coinbit.epoxymodels.AddCoinItemViewModel_
+com/binarybricks/coinbit/epoxymodels/CoinSearchItemViewModel_.java
+ com.binarybricks.coinbit.epoxymodels.CoinSearchItemViewModel_
+com/binarybricks/coinbit/epoxymodels/DashboardHeaderItemViewModelBuilder.java
+ com.binarybricks.coinbit.epoxymodels.DashboardHeaderItemViewModelBuilder
+com/binarybricks/coinbit/epoxymodels/ExpandedNewsItemViewModel_.java
+ com.binarybricks.coinbit.epoxymodels.ExpandedNewsItemViewModel_
+com/binarybricks/coinbit/epoxymodels/CoinInfoItemViewModel_.java
+ com.binarybricks.coinbit.epoxymodels.CoinInfoItemViewModel_
+com/binarybricks/coinbit/epoxymodels/CoinStatsticsItemViewModel_.java
+ com.binarybricks.coinbit.epoxymodels.CoinStatsticsItemViewModel_
+com/binarybricks/coinbit/epoxymodels/CoinTickerItemViewModelBuilder.java
+ com.binarybricks.coinbit.epoxymodels.CoinTickerItemViewModelBuilder
+com/binarybricks/coinbit/epoxymodels/LabelItemViewModelBuilder.java
+ com.binarybricks.coinbit.epoxymodels.LabelItemViewModelBuilder
+com/binarybricks/coinbit/epoxymodels/CoinStatsticsItemViewModelBuilder.java
+ com.binarybricks.coinbit.epoxymodels.CoinStatsticsItemViewModelBuilder
+com/binarybricks/coinbit/epoxymodels/ExchangePairItemViewModelBuilder.java
+ com.binarybricks.coinbit.epoxymodels.ExchangePairItemViewModelBuilder
+com/binarybricks/coinbit/epoxymodels/ChipGroupItemViewModel_.java
+ com.binarybricks.coinbit.epoxymodels.ChipGroupItemViewModel_
+com/binarybricks/coinbit/epoxymodels/NewsItemViewModelBuilder.java
+ com.binarybricks.coinbit.epoxymodels.NewsItemViewModelBuilder
+com/binarybricks/coinbit/epoxymodels/NewsItemViewModel_.java
+ com.binarybricks.coinbit.epoxymodels.NewsItemViewModel_
+com/binarybricks/coinbit/BuildConfig.java
+ com.binarybricks.coinbit.BuildConfig
+com/binarybricks/coinbit/epoxymodels/CoinTickerItemViewModel_.java
+ com.binarybricks.coinbit.epoxymodels.CoinTickerItemViewModel_
+com/binarybricks/coinbit/epoxymodels/ShortNewsItemViewModel_.java
+ com.binarybricks.coinbit.epoxymodels.ShortNewsItemViewModel_
+com/binarybricks/coinbit/epoxymodels/AddCoinTransactionItemViewModel_.java
+ com.binarybricks.coinbit.epoxymodels.AddCoinTransactionItemViewModel_
+com/binarybricks/coinbit/epoxymodels/CoinInfoItemViewModelBuilder.java
+ com.binarybricks.coinbit.epoxymodels.CoinInfoItemViewModelBuilder
+com/binarybricks/coinbit/epoxymodels/ShortNewsItemViewModelBuilder.java
+ com.binarybricks.coinbit.epoxymodels.ShortNewsItemViewModelBuilder
+com/binarybricks/coinbit/epoxymodels/CoinItemViewModel_.java
+ com.binarybricks.coinbit.epoxymodels.CoinItemViewModel_
+com/binarybricks/coinbit/epoxymodels/EmptyCoinItemViewModelBuilder.java
+ com.binarybricks.coinbit.epoxymodels.EmptyCoinItemViewModelBuilder
+com/binarybricks/coinbit/epoxymodels/CoinHistoricalChartItemViewModel_.java
+ com.binarybricks.coinbit.epoxymodels.CoinHistoricalChartItemViewModel_
+com/binarybricks/coinbit/epoxymodels/TopCardItemViewModel_.java
+ com.binarybricks.coinbit.epoxymodels.TopCardItemViewModel_
+com/binarybricks/coinbit/epoxymodels/EmptyCoinItemViewModel_.java
+ com.binarybricks.coinbit.epoxymodels.EmptyCoinItemViewModel_
+com/binarybricks/coinbit/epoxymodels/GenericFooterItemViewModel_.java
+ com.binarybricks.coinbit.epoxymodels.GenericFooterItemViewModel_
+com/binarybricks/coinbit/epoxymodels/CoinSearchItemViewModelBuilder.java
+ com.binarybricks.coinbit.epoxymodels.CoinSearchItemViewModelBuilder
+com/binarybricks/coinbit/epoxymodels/CoinTickerViewModel_.java
+ com.binarybricks.coinbit.epoxymodels.CoinTickerViewModel_
+com/binarybricks/coinbit/epoxymodels/CoinTransactionHistoryItemViewModel_.java
+ com.binarybricks.coinbit.epoxymodels.CoinTransactionHistoryItemViewModel_
+com/binarybricks/coinbit/epoxymodels/CoinHistoricalChartItemViewModelBuilder.java
+ com.binarybricks.coinbit.epoxymodels.CoinHistoricalChartItemViewModelBuilder
+com/binarybricks/coinbit/epoxymodels/AddCoinTransactionItemViewModelBuilder.java
+ com.binarybricks.coinbit.epoxymodels.AddCoinTransactionItemViewModelBuilder
+com/binarybricks/coinbit/epoxymodels/TopCardItemViewModelBuilder.java
+ com.binarybricks.coinbit.epoxymodels.TopCardItemViewModelBuilder
+com/binarybricks/coinbit/epoxymodels/GenericFooterItemViewModelBuilder.java
+ com.binarybricks.coinbit.epoxymodels.GenericFooterItemViewModelBuilder
+com/binarybricks/coinbit/epoxymodels/CoinItemViewModelBuilder.java
+ com.binarybricks.coinbit.epoxymodels.CoinItemViewModelBuilder
+com/binarybricks/coinbit/epoxymodels/ChipGroupItemViewModelBuilder.java
+ com.binarybricks.coinbit.epoxymodels.ChipGroupItemViewModelBuilder
+com/binarybricks/coinbit/epoxymodels/ExpandedNewsItemViewModelBuilder.java
+ com.binarybricks.coinbit.epoxymodels.ExpandedNewsItemViewModelBuilder
+com/binarybricks/coinbit/epoxymodels/AddCoinItemViewModelBuilder.java
+ com.binarybricks.coinbit.epoxymodels.AddCoinItemViewModelBuilder
+com/binarybricks/coinbit/epoxymodels/DashboardHeaderItemViewModel_.java
+ com.binarybricks.coinbit.epoxymodels.DashboardHeaderItemViewModel_
+com/binarybricks/coinbit/epoxymodels/CoinTickerViewModelBuilder.java
+ com.binarybricks.coinbit.epoxymodels.CoinTickerViewModelBuilder
+com/binarybricks/coinbit/epoxymodels/LabelItemViewModel_.java
+ com.binarybricks.coinbit.epoxymodels.LabelItemViewModel_
+com/binarybricks/coinbit/data/database/dao/ExchangeDao_Impl.java
+ com.binarybricks.coinbit.data.database.dao.ExchangeDao_Impl
+ com.binarybricks.coinbit.data.database.dao.ExchangeDao_Impl$1
+ com.binarybricks.coinbit.data.database.dao.ExchangeDao_Impl$2
+ com.binarybricks.coinbit.data.database.dao.ExchangeDao_Impl$3
+com/binarybricks/coinbit/epoxymodels/ExchangePairItemViewModel_.java
+ com.binarybricks.coinbit.epoxymodels.ExchangePairItemViewModel_
+com/binarybricks/coinbit/epoxymodels/CoinPositionItemViewModelBuilder.java
+ com.binarybricks.coinbit.epoxymodels.CoinPositionItemViewModelBuilder
+com/binarybricks/coinbit/epoxymodels/CoinPositionItemViewModel_.java
+ com.binarybricks.coinbit.epoxymodels.CoinPositionItemViewModel_
+com/binarybricks/coinbit/epoxymodels/CoinNewsItemViewModel_.java
+ com.binarybricks.coinbit.epoxymodels.CoinNewsItemViewModel_
+com/binarybricks/coinbit/epoxymodels/CoinAboutItemViewModelBuilder.java
+ com.binarybricks.coinbit.epoxymodels.CoinAboutItemViewModelBuilder
+com/binarybricks/coinbit/epoxymodels/CoinNewsItemViewModelBuilder.java
+ com.binarybricks.coinbit.epoxymodels.CoinNewsItemViewModelBuilder
+com/binarybricks/coinbit/epoxymodels/CoinAboutItemViewModel_.java
+ com.binarybricks.coinbit.epoxymodels.CoinAboutItemViewModel_
+com/binarybricks/coinbit/data/database/CoinBitDatabase_Impl.java
+ com.binarybricks.coinbit.data.database.CoinBitDatabase_Impl
+ com.binarybricks.coinbit.data.database.CoinBitDatabase_Impl$1

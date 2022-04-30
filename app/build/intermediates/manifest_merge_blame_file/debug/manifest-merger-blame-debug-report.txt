@@ -1,0 +1,433 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.binarybricks.coinbit"
+4    android:versionCode="6"
+5    android:versionName="1.3" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->[com.wdullaer:materialdatetimepicker:4.2.3] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\41a5910c1154b31c0ad4a496698f8464\jetified-materialdatetimepicker-4.2.3\AndroidManifest.xml:26:5-66
+12-->[com.wdullaer:materialdatetimepicker:4.2.3] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\41a5910c1154b31c0ad4a496698f8464\jetified-materialdatetimepicker-4.2.3\AndroidManifest.xml:26:22-63
+13    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+13-->[com.google.firebase:firebase-perf:19.0.10] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\d75039dc6a7239bfb2e335cdc0873b63\jetified-firebase-perf-19.0.10\AndroidManifest.xml:12:5-98
+13-->[com.google.firebase:firebase-perf:19.0.10] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\d75039dc6a7239bfb2e335cdc0873b63\jetified-firebase-perf-19.0.10\AndroidManifest.xml:12:22-95
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\d2ea0fa9cef3404e16559a67976cb27b\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:24:5-79
+14-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\d2ea0fa9cef3404e16559a67976cb27b\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:24:22-76
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\d2ea0fa9cef3404e16559a67976cb27b\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:25:5-68
+15-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\d2ea0fa9cef3404e16559a67976cb27b\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:25:22-65
+16    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- To store the heap dumps and leak analysis results. -->
+16-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\d2ea0fa9cef3404e16559a67976cb27b\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:26:5-110
+16-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\d2ea0fa9cef3404e16559a67976cb27b\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:26:22-107
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:23:5-80
+17-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:23:22-77
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- To allow starting foreground services on Android P+ - https://developer.android.com/preview/behavior-changes#fg-svc -->
+18-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:24:5-81
+18-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:24:22-78
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+19-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:26:5-77
+19-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:26:22-74
+20
+21    <application
+21-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:8:5-68:19
+22        android:name="com.binarybricks.coinbit.CoinBitApplication"
+22-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:9:9-67
+23        android:allowBackup="true"
+23-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:10:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.3.2] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\29a4a060476d6b6d36648ebe8449e1e1\core-1.3.2\AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:fullBackupContent="true"
+27-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:11:9-41
+28        android:icon="@mipmap/ic_launcher"
+28-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:12:9-43
+29        android:label="@string/app_name"
+29-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:13:9-41
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:14:9-54
+31        android:supportsRtl="false"
+31-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:15:9-36
+32        android:testOnly="true"
+33        android:theme="@style/AppTheme" >
+33-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:16:9-40
+34        <activity android:name="com.binarybricks.coinbit.features.launch.LaunchActivity" >
+34-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:18:9-34:20
+34-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:18:19-89
+35            <intent-filter>
+35-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:19:13-23:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:20:17-69
+36-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:20:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:22:17-77
+38-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:22:27-74
+39            </intent-filter>
+40            <intent-filter>
+40-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:24:13-33:29
+41                <data
+41-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:25:17-27:49
+42                    android:host="open"
+42-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:26:21-40
+43                    android:scheme="coinhood" />
+43-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:27:21-46
+44
+45                <action android:name="android.intent.action.VIEW" />
+45-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:29:17-69
+45-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:29:25-66
+46
+47                <category android:name="android.intent.category.DEFAULT" />
+47-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:31:17-76
+47-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:31:27-73
+48                <category android:name="android.intent.category.BROWSABLE" />
+48-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:32:17-78
+48-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:32:27-75
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:35:9-37:46
+52            android:name="com.binarybricks.coinbit.features.HomeActivity"
+52-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:36:13-74
+53            android:launchMode="singleTop" />
+53-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:37:13-43
+54        <activity
+54-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:38:9-41:91
+55            android:name="com.binarybricks.coinbit.features.coindetails.CoinDetailsPagerActivity"
+55-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:39:13-98
+56            android:launchMode="singleTop"
+56-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:40:13-43
+57            android:parentActivityName="com.binarybricks.coinbit.features.HomeActivity" />
+57-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:41:13-88
+58        <activity
+58-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:42:9-44:115
+59            android:name="com.binarybricks.coinbit.features.newslist.NewsListActivity"
+59-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:43:13-87
+60            android:parentActivityName="com.binarybricks.coinbit.features.coindetails.CoinDetailsPagerActivity" />
+60-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:44:13-112
+61        <activity
+61-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:45:9-47:57
+62            android:name="com.binarybricks.coinbit.features.transaction.CoinTransactionActivity"
+62-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:46:13-97
+63            android:windowSoftInputMode="stateHidden" />
+63-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:47:13-54
+64        <activity
+64-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:48:9-50:57
+65            android:name="com.binarybricks.coinbit.features.exchangesearch.ExchangeSearchActivity"
+65-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:49:13-99
+66            android:windowSoftInputMode="stateHidden" />
+66-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:50:13-54
+67        <activity
+67-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:51:9-53:57
+68            android:name="com.binarybricks.coinbit.features.pairsearch.PairSearchActivity"
+68-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:52:13-91
+69            android:windowSoftInputMode="stateHidden" />
+69-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:53:13-54
+70        <activity
+70-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:54:9-58:57
+71            android:name="com.binarybricks.coinbit.features.coinsearch.CoinSearchActivity"
+71-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:55:13-91
+72            android:label="@string/search_coin"
+72-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:56:13-48
+73            android:parentActivityName="com.binarybricks.coinbit.features.HomeActivity"
+73-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:57:13-88
+74            android:windowSoftInputMode="stateHidden" />
+74-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:58:13-54
+75        <activity
+75-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:59:9-62:108
+76            android:name="com.binarybricks.coinbit.features.coindetails.CoinDetailsActivity"
+76-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:60:13-93
+77            android:launchMode="singleTop"
+77-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:61:13-43
+78            android:parentActivityName="com.binarybricks.coinbit.features.coinsearch.CoinSearchActivity" />
+78-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:62:13-105
+79        <activity
+79-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:64:9-66:115
+80            android:name="com.binarybricks.coinbit.features.ticker.CoinTickerActivity"
+80-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:65:13-87
+81            android:parentActivityName="com.binarybricks.coinbit.features.coindetails.CoinDetailsPagerActivity" />
+81-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:66:13-112
+82
+83        <service
+83-->[com.squareup.leakcanary:leakcanary-android:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\8f9cecb38ba57f2697f5728f29e7ef56\jetified-leakcanary-android-2.5\AndroidManifest.xml:23:9-25:40
+84            android:name="leakcanary.internal.HeapAnalyzerService"
+84-->[com.squareup.leakcanary:leakcanary-android:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\8f9cecb38ba57f2697f5728f29e7ef56\jetified-leakcanary-android-2.5\AndroidManifest.xml:24:13-67
+85            android:exported="false" />
+85-->[com.squareup.leakcanary:leakcanary-android:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\8f9cecb38ba57f2697f5728f29e7ef56\jetified-leakcanary-android-2.5\AndroidManifest.xml:25:13-37
+86
+87        <provider
+87-->[com.google.firebase:firebase-perf:19.0.10] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\d75039dc6a7239bfb2e335cdc0873b63\jetified-firebase-perf-19.0.10\AndroidManifest.xml:15:9-19:39
+88            android:name="com.google.firebase.perf.provider.FirebasePerfProvider"
+88-->[com.google.firebase:firebase-perf:19.0.10] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\d75039dc6a7239bfb2e335cdc0873b63\jetified-firebase-perf-19.0.10\AndroidManifest.xml:16:13-82
+89            android:authorities="com.binarybricks.coinbit.firebaseperfprovider"
+89-->[com.google.firebase:firebase-perf:19.0.10] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\d75039dc6a7239bfb2e335cdc0873b63\jetified-firebase-perf-19.0.10\AndroidManifest.xml:17:13-72
+90            android:exported="false"
+90-->[com.google.firebase:firebase-perf:19.0.10] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\d75039dc6a7239bfb2e335cdc0873b63\jetified-firebase-perf-19.0.10\AndroidManifest.xml:18:13-37
+91            android:initOrder="101" />
+91-->[com.google.firebase:firebase-perf:19.0.10] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\d75039dc6a7239bfb2e335cdc0873b63\jetified-firebase-perf-19.0.10\AndroidManifest.xml:19:13-36
+92
+93        <service
+93-->[com.google.firebase:firebase-perf:19.0.10] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\d75039dc6a7239bfb2e335cdc0873b63\jetified-firebase-perf-19.0.10\AndroidManifest.xml:21:9-27:19
+94            android:name="com.google.firebase.components.ComponentDiscoveryService"
+94-->[com.google.firebase:firebase-perf:19.0.10] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\d75039dc6a7239bfb2e335cdc0873b63\jetified-firebase-perf-19.0.10\AndroidManifest.xml:22:13-84
+95            android:directBootAware="true"
+95-->[com.google.firebase:firebase-common:19.4.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\701f2a04f80dd65bd2bae9e37f3d3886\jetified-firebase-common-19.4.0\AndroidManifest.xml:35:13-43
+96            android:exported="false" >
+96-->[com.google.firebase:firebase-perf:19.0.10] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\d75039dc6a7239bfb2e335cdc0873b63\jetified-firebase-perf-19.0.10\AndroidManifest.xml:23:13-37
+97            <meta-data
+97-->[com.google.firebase:firebase-perf:19.0.10] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\d75039dc6a7239bfb2e335cdc0873b63\jetified-firebase-perf-19.0.10\AndroidManifest.xml:24:13-26:85
+98                android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar"
+98-->[com.google.firebase:firebase-perf:19.0.10] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\d75039dc6a7239bfb2e335cdc0873b63\jetified-firebase-perf-19.0.10\AndroidManifest.xml:25:17-109
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.firebase:firebase-perf:19.0.10] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\d75039dc6a7239bfb2e335cdc0873b63\jetified-firebase-perf-19.0.10\AndroidManifest.xml:26:17-82
+100            <meta-data
+100-->[com.google.firebase:firebase-crashlytics:17.3.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\6306bc3d319184c7d9a0037007b9411c\jetified-firebase-crashlytics-17.3.0\AndroidManifest.xml:18:13-20:85
+101                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+101-->[com.google.firebase:firebase-crashlytics:17.3.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\6306bc3d319184c7d9a0037007b9411c\jetified-firebase-crashlytics-17.3.0\AndroidManifest.xml:19:17-115
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.firebase:firebase-crashlytics:17.3.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\6306bc3d319184c7d9a0037007b9411c\jetified-firebase-crashlytics-17.3.0\AndroidManifest.xml:20:17-82
+103            <meta-data
+103-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\2efc5e83ca8ce377d51dfafc7b42afa0\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:30:13-32:85
+104                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+104-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\2efc5e83ca8ce377d51dfafc7b42afa0\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:31:17-139
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\2efc5e83ca8ce377d51dfafc7b42afa0\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:32:17-82
+106            <meta-data
+106-->[com.google.firebase:firebase-config:20.0.1] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\6202d11b9c466e453eba8c765709e1de\jetified-firebase-config-20.0.1\AndroidManifest.xml:32:13-34:85
+107                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+107-->[com.google.firebase:firebase-config:20.0.1] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\6202d11b9c466e453eba8c765709e1de\jetified-firebase-config-20.0.1\AndroidManifest.xml:33:17-117
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-config:20.0.1] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\6202d11b9c466e453eba8c765709e1de\jetified-firebase-config-20.0.1\AndroidManifest.xml:34:17-82
+109            <meta-data
+109-->[com.google.firebase:firebase-installations:16.3.4] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\aa93d82089ae57a0d3c344dded825200\jetified-firebase-installations-16.3.4\AndroidManifest.xml:18:13-20:85
+110                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+110-->[com.google.firebase:firebase-installations:16.3.4] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\aa93d82089ae57a0d3c344dded825200\jetified-firebase-installations-16.3.4\AndroidManifest.xml:19:17-127
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[com.google.firebase:firebase-installations:16.3.4] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\aa93d82089ae57a0d3c344dded825200\jetified-firebase-installations-16.3.4\AndroidManifest.xml:20:17-82
+112            <meta-data
+112-->[com.google.firebase:firebase-datatransport:17.0.9] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\72ba42f6ac27937372ab7b94a225d905\jetified-firebase-datatransport-17.0.9\AndroidManifest.xml:28:13-30:85
+113                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+113-->[com.google.firebase:firebase-datatransport:17.0.9] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\72ba42f6ac27937372ab7b94a225d905\jetified-firebase-datatransport-17.0.9\AndroidManifest.xml:29:17-115
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-datatransport:17.0.9] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\72ba42f6ac27937372ab7b94a225d905\jetified-firebase-datatransport-17.0.9\AndroidManifest.xml:30:17-82
+115            <meta-data
+115-->[com.google.firebase:firebase-abt:20.0.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\e8b3c4898e25d5e259c44350de6c7476\jetified-firebase-abt-20.0.0\AndroidManifest.xml:13:13-15:85
+116                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+116-->[com.google.firebase:firebase-abt:20.0.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\e8b3c4898e25d5e259c44350de6c7476\jetified-firebase-abt-20.0.0\AndroidManifest.xml:14:17-109
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[com.google.firebase:firebase-abt:20.0.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\e8b3c4898e25d5e259c44350de6c7476\jetified-firebase-abt-20.0.0\AndroidManifest.xml:15:17-82
+118        </service>
+119
+120        <receiver
+120-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\d2ea0fa9cef3404e16559a67976cb27b\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:29:9-33:20
+121            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+121-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\d2ea0fa9cef3404e16559a67976cb27b\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:30:13-85
+122            android:enabled="true"
+122-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\d2ea0fa9cef3404e16559a67976cb27b\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:31:13-35
+123            android:exported="false" >
+123-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\d2ea0fa9cef3404e16559a67976cb27b\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:32:13-37
+124        </receiver>
+125
+126        <service
+126-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\d2ea0fa9cef3404e16559a67976cb27b\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:35:9-38:40
+127            android:name="com.google.android.gms.measurement.AppMeasurementService"
+127-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\d2ea0fa9cef3404e16559a67976cb27b\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:36:13-84
+128            android:enabled="true"
+128-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\d2ea0fa9cef3404e16559a67976cb27b\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:37:13-35
+129            android:exported="false" />
+129-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\d2ea0fa9cef3404e16559a67976cb27b\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:38:13-37
+130        <service
+130-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\d2ea0fa9cef3404e16559a67976cb27b\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:39:9-43:72
+131            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+131-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\d2ea0fa9cef3404e16559a67976cb27b\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:40:13-87
+132            android:enabled="true"
+132-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\d2ea0fa9cef3404e16559a67976cb27b\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:41:13-35
+133            android:exported="false"
+133-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\d2ea0fa9cef3404e16559a67976cb27b\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:42:13-37
+134            android:permission="android.permission.BIND_JOB_SERVICE" />
+134-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\d2ea0fa9cef3404e16559a67976cb27b\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:43:13-69
+135
+136        <activity
+136-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\02e38baada748fd16d11a442174b4884\jetified-play-services-base-17.3.0\AndroidManifest.xml:23:9-26:75
+137            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+137-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\02e38baada748fd16d11a442174b4884\jetified-play-services-base-17.3.0\AndroidManifest.xml:24:13-79
+138            android:exported="false"
+138-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\02e38baada748fd16d11a442174b4884\jetified-play-services-base-17.3.0\AndroidManifest.xml:25:13-37
+139            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+139-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\02e38baada748fd16d11a442174b4884\jetified-play-services-base-17.3.0\AndroidManifest.xml:26:13-72
+140
+141        <provider
+141-->[com.google.firebase:firebase-common:19.4.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\701f2a04f80dd65bd2bae9e37f3d3886\jetified-firebase-common-19.4.0\AndroidManifest.xml:26:9-31:39
+142            android:name="com.google.firebase.provider.FirebaseInitProvider"
+142-->[com.google.firebase:firebase-common:19.4.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\701f2a04f80dd65bd2bae9e37f3d3886\jetified-firebase-common-19.4.0\AndroidManifest.xml:27:13-77
+143            android:authorities="com.binarybricks.coinbit.firebaseinitprovider"
+143-->[com.google.firebase:firebase-common:19.4.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\701f2a04f80dd65bd2bae9e37f3d3886\jetified-firebase-common-19.4.0\AndroidManifest.xml:28:13-72
+144            android:directBootAware="true"
+144-->[com.google.firebase:firebase-common:19.4.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\701f2a04f80dd65bd2bae9e37f3d3886\jetified-firebase-common-19.4.0\AndroidManifest.xml:29:13-43
+145            android:exported="false"
+145-->[com.google.firebase:firebase-common:19.4.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\701f2a04f80dd65bd2bae9e37f3d3886\jetified-firebase-common-19.4.0\AndroidManifest.xml:30:13-37
+146            android:initOrder="100" />
+146-->[com.google.firebase:firebase-common:19.4.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\701f2a04f80dd65bd2bae9e37f3d3886\jetified-firebase-common-19.4.0\AndroidManifest.xml:31:13-36
+147
+148        <meta-data
+148-->[com.google.android.gms:play-services-basement:17.3.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\777474f953ee9e83e090bd6e810dc5a3\jetified-play-services-basement-17.3.0\AndroidManifest.xml:23:9-25:69
+149            android:name="com.google.android.gms.version"
+149-->[com.google.android.gms:play-services-basement:17.3.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\777474f953ee9e83e090bd6e810dc5a3\jetified-play-services-basement-17.3.0\AndroidManifest.xml:24:13-58
+150            android:value="@integer/google_play_services_version" />
+150-->[com.google.android.gms:play-services-basement:17.3.0] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\777474f953ee9e83e090bd6e810dc5a3\jetified-play-services-basement-17.3.0\AndroidManifest.xml:25:13-66
+151
+152        <service
+152-->[androidx.room:room-runtime:2.2.6] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\130d8e364be0f27f86fa3603de4485bb\room-runtime-2.2.6\AndroidManifest.xml:25:9-28:40
+153            android:name="androidx.room.MultiInstanceInvalidationService"
+153-->[androidx.room:room-runtime:2.2.6] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\130d8e364be0f27f86fa3603de4485bb\room-runtime-2.2.6\AndroidManifest.xml:26:13-74
+154            android:directBootAware="true"
+154-->[androidx.room:room-runtime:2.2.6] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\130d8e364be0f27f86fa3603de4485bb\room-runtime-2.2.6\AndroidManifest.xml:27:13-43
+155            android:exported="false" />
+155-->[androidx.room:room-runtime:2.2.6] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\130d8e364be0f27f86fa3603de4485bb\room-runtime-2.2.6\AndroidManifest.xml:28:13-37
+156        <service
+156-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\680a6bcfc145d6b4563852d234cc219b\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:29:9-35:19
+157            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+157-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\680a6bcfc145d6b4563852d234cc219b\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:30:13-103
+158            android:exported="false" >
+158-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\680a6bcfc145d6b4563852d234cc219b\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:31:13-37
+159            <meta-data
+159-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\680a6bcfc145d6b4563852d234cc219b\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:32:13-34:39
+160                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+160-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\680a6bcfc145d6b4563852d234cc219b\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:33:17-94
+161                android:value="cct" />
+161-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\680a6bcfc145d6b4563852d234cc219b\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:34:17-36
+162        </service>
+163        <service
+163-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\cdc43c9f4188829307af9b61bfe430b0\jetified-transport-runtime-2.2.5\AndroidManifest.xml:26:9-30:19
+164            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+164-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\cdc43c9f4188829307af9b61bfe430b0\jetified-transport-runtime-2.2.5\AndroidManifest.xml:27:13-117
+165            android:exported="false"
+165-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\cdc43c9f4188829307af9b61bfe430b0\jetified-transport-runtime-2.2.5\AndroidManifest.xml:28:13-37
+166            android:permission="android.permission.BIND_JOB_SERVICE" >
+166-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\cdc43c9f4188829307af9b61bfe430b0\jetified-transport-runtime-2.2.5\AndroidManifest.xml:29:13-69
+167        </service>
+168
+169        <receiver
+169-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\cdc43c9f4188829307af9b61bfe430b0\jetified-transport-runtime-2.2.5\AndroidManifest.xml:32:9-34:40
+170            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+170-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\cdc43c9f4188829307af9b61bfe430b0\jetified-transport-runtime-2.2.5\AndroidManifest.xml:33:13-132
+171            android:exported="false" />
+171-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\cdc43c9f4188829307af9b61bfe430b0\jetified-transport-runtime-2.2.5\AndroidManifest.xml:34:13-37
+172
+173        <provider
+173-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:29:9-37:20
+174            android:name="leakcanary.internal.LeakCanaryFileProvider"
+174-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:30:13-70
+175            android:authorities="com.squareup.leakcanary.fileprovider.com.binarybricks.coinbit"
+175-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:31:13-88
+176            android:exported="false"
+176-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:32:13-37
+177            android:grantUriPermissions="true" >
+177-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:33:13-47
+178            <meta-data
+178-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:34:13-36:66
+179                android:name="android.support.FILE_PROVIDER_PATHS"
+179-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:35:17-67
+180                android:resource="@xml/leak_canary_file_paths" />
+180-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:36:17-63
+181        </provider>
+182
+183        <activity
+183-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:39:9-44:66
+184            android:name="leakcanary.internal.activity.LeakActivity"
+184-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:40:13-69
+185            android:icon="@mipmap/leak_canary_icon"
+185-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:41:13-52
+186            android:label="@string/leak_canary_display_activity_label"
+186-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:42:13-71
+187            android:taskAffinity="com.squareup.leakcanary.com.binarybricks.coinbit"
+187-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:43:13-76
+188            android:theme="@style/leak_canary_LeakCanary.Base" />
+188-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:44:13-63
+189
+190        <activity-alias
+190-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:46:9-62:26
+191            android:name="leakcanary.internal.activity.LeakLauncherActivity"
+191-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:47:13-77
+192            android:banner="@drawable/leak_canary_tv_icon"
+192-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:48:13-59
+193            android:enabled="@bool/leak_canary_add_launcher_icon"
+193-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:49:13-66
+194            android:icon="@mipmap/leak_canary_icon"
+194-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:50:13-52
+195            android:label="@string/leak_canary_display_activity_label"
+195-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:51:13-71
+196            android:targetActivity="leakcanary.internal.activity.LeakActivity"
+196-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:52:13-79
+197            android:taskAffinity="com.squareup.leakcanary.com.binarybricks.coinbit"
+197-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:53:13-76
+198            android:theme="@style/leak_canary_LeakCanary.Base" >
+198-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:54:13-63
+199            <intent-filter>
+199-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:55:13-61:29
+200                <action android:name="android.intent.action.MAIN" />
+200-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:20:17-69
+200-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:20:25-66
+201
+202                <category android:name="android.intent.category.LAUNCHER" />
+202-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:22:17-77
+202-->C:\Users\Samant\major project\CoinBit-master\app\src\main\AndroidManifest.xml:22:27-74
+203                <!-- Android TV launcher intent -->
+204                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+204-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:60:17-86
+204-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:60:27-83
+205            </intent-filter>
+206        </activity-alias>
+207
+208        <activity
+208-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:64:9-70:68
+209            android:name="leakcanary.internal.RequestStoragePermissionActivity"
+209-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:65:13-80
+210            android:excludeFromRecents="true"
+210-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:66:13-46
+211            android:icon="@mipmap/leak_canary_icon"
+211-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:67:13-52
+212            android:label="@string/leak_canary_storage_permission_activity_label"
+212-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:68:13-82
+213            android:taskAffinity="com.squareup.leakcanary.com.binarybricks.coinbit"
+213-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:69:13-76
+214            android:theme="@style/leak_canary_Theme.Transparent" />
+214-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:70:13-65
+215
+216        <receiver android:name="leakcanary.internal.NotificationReceiver" />
+216-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:72:9-77
+216-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\fd8b79dba73dd010d468739bfa07c0c7\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:72:19-74
+217
+218        <provider
+218-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\597f6f871b6d5aaace4bba72cc9c0f6f\jetified-leakcanary-object-watcher-android-2.5\AndroidManifest.xml:8:9-12:40
+219            android:name="leakcanary.internal.AppWatcherInstaller$MainProcess"
+219-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\597f6f871b6d5aaace4bba72cc9c0f6f\jetified-leakcanary-object-watcher-android-2.5\AndroidManifest.xml:9:13-79
+220            android:authorities="com.binarybricks.coinbit.leakcanary-installer"
+220-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\597f6f871b6d5aaace4bba72cc9c0f6f\jetified-leakcanary-object-watcher-android-2.5\AndroidManifest.xml:10:13-72
+221            android:enabled="@bool/leak_canary_watcher_auto_install"
+221-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\597f6f871b6d5aaace4bba72cc9c0f6f\jetified-leakcanary-object-watcher-android-2.5\AndroidManifest.xml:11:13-69
+222            android:exported="false" />
+222-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\597f6f871b6d5aaace4bba72cc9c0f6f\jetified-leakcanary-object-watcher-android-2.5\AndroidManifest.xml:12:13-37
+223        <provider
+223-->[com.squareup.leakcanary:plumber-android:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\f16f7844385e2b7214881fcaad84808c\jetified-plumber-android-2.5\AndroidManifest.xml:8:9-12:40
+224            android:name="leakcanary.internal.PlumberInstaller"
+224-->[com.squareup.leakcanary:plumber-android:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\f16f7844385e2b7214881fcaad84808c\jetified-plumber-android-2.5\AndroidManifest.xml:9:13-64
+225            android:authorities="com.binarybricks.coinbit.plumber-installer"
+225-->[com.squareup.leakcanary:plumber-android:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\f16f7844385e2b7214881fcaad84808c\jetified-plumber-android-2.5\AndroidManifest.xml:10:13-69
+226            android:enabled="@bool/leak_canary_plumber_auto_install"
+226-->[com.squareup.leakcanary:plumber-android:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\f16f7844385e2b7214881fcaad84808c\jetified-plumber-android-2.5\AndroidManifest.xml:11:13-69
+227            android:exported="false" />
+227-->[com.squareup.leakcanary:plumber-android:2.5] C:\Users\Samant\.gradle\caches\transforms-2\files-2.1\f16f7844385e2b7214881fcaad84808c\jetified-plumber-android-2.5\AndroidManifest.xml:12:13-37
+228    </application>
+229
+230</manifest>
